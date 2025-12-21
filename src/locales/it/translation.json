@@ -1,0 +1,69 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "mission": "Mission",
+    "activities": "Attività",
+    "contact": "Contatto"
+  },
+  "brand": "Lingua e Arti d’Italia",
+  "hero": {
+    "title": "Lingua e Arti d’Italia",
+    "subtitle": "Where cultures meet and create."
+  },
+  "about": {
+    "title": "Informazioni",
+    "text": "Uno spazio culturale aperto al mondo, nel cuore di Bruxelles. Uno spazio vivo di incontro e dialogo intorno alle lingue, alle arti e alle identità culturali."
+  },
+  "quote": "L'Italia, la sua lingua e il suo patrimonio artistico, un ponte attivo con altri mondi, esperienze e immaginari.",
+  "values": "I Nostri Valori",
+  "values_list": [
+    "Diversità culturale",
+    "Partecipazione",
+    "Inclusività",
+    "Creatività",
+    "Collaborazione",
+    "Alleanze internazionali"
+  ],
+  "mission_preview": {
+    "title": "La Nostra Missione",
+    "text": "Promuovere la lingua e la cultura italiana in tutta la loro ricchezza e contemporaneità. Facilitare il dialogo interculturale per costruire società inclusive.",
+    "read_more": "Leggi di più"
+  },
+  "activities_title": "Le Nostre Attività",
+  "activities": [
+    { "title": "Corsi di lingua", "text": "Tutti i livelli, insegnanti madrelingua certificati." },
+    { "title": "Progetti di co-creazione", "text": "Scambio di conoscenze e competenze." },
+    { "title": "Incontri letterari", "text": "Scoprire libri e autori." },
+    { "title": "Progetti espositivi", "text": "Artisti riuniti attorno a temi culturali." },
+    { "title": "Concerti & spettacoli", "text": "Musica e arti performative." },
+    { "title": "Cinema", "text": "BRENFF, più di un festival." }
+  ],
+  "footer": {
+    "copyright": "© {{year}} Lingua e Arti d’Italia. Tutti i diritti riservati.",
+    "tagline": "Uno spazio culturale aperto al mondo, nel cuore di Bruxelles."
+  },
+  "mission": {
+    "title": "La Nostra Visione e Missione",
+    "p1": "La nostra visione è diventare un ponte culturale essenziale in Europa, collegando le ricche tradizioni italiane con le dinamiche culturali globali. Immaginiamo uno spazio in cui arte, lingua e identità siano strumenti per l'inclusione sociale e la comprensione reciproca.",
+    "objectives_title": "Obiettivi Chiave",
+    "objective1_title": "Promozione linguistica:",
+    "objective1_text": "Promuovere la lingua e la cultura italiana attraverso corsi ed eventi interattivi.",
+    "objective2_title": "Dialogo interculturale:",
+    "objective2_text": "Facilitare il dialogo interculturale per costruire società inclusive.",
+    "objective3_title": "Accesso democratico:",
+    "objective3_text": "Democratizzare l’accesso alla cultura senza barriere economiche, linguistiche o sociali."
+  },
+  "contact": {
+    "title": "Contattaci",
+    "text": "Siamo basati a Bruxelles. Contattaci per domande o proposte di collaborazione.",
+    "email": "Email Generale",
+    "address": "Indirizzo (Provvisorio)",
+    "phone_donatella": "Donatella Cannova",
+    "phone_elina": "Elina Patané"
+  }
+  ,
+  "page": {
+    "not_found": "PAGINA NON TROVATA",
+    "back_home": "Torna alla home"
+  }
+}

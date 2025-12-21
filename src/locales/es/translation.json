@@ -1,0 +1,69 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "mission": "Misión",
+    "activities": "Actividades",
+    "contact": "Contacto"
+  },
+  "brand": "Lingua e Arti d’Italia",
+  "hero": {
+    "title": "Lingua e Arti d’Italia",
+    "subtitle": "Where cultures meet and create."
+  },
+  "about": {
+    "title": "Acerca de",
+    "text": "Un espacio cultural abierto al mundo, en el corazón de Bruselas. Un espacio vivo de encuentro y diálogo alrededor de las lenguas, las artes y las identidades culturales."
+  },
+  "quote": "Italia, su lengua y su patrimonio artístico, un puente activo con otros mundos, experiencias e imaginarios.",
+  "values": "Nuestros Valores",
+  "values_list": [
+    "Diversidad cultural",
+    "Participación",
+    "Inclusividad",
+    "Creatividad",
+    "Colaboración",
+    "Alianzas internacionales"
+  ],
+  "mission_preview": {
+    "title": "Nuestra Misión",
+    "text": "Promover la lengua y la cultura italianas en toda su riqueza y contemporaneidad. Facilitar el diálogo intercultural para construir sociedades inclusivas.",
+    "read_more": "Leer más"
+  },
+  "activities_title": "Nuestras Actividades",
+  "activities": [
+    { "title": "Cursos de idioma", "text": "Todos los niveles, profesores nativos certificados." },
+    { "title": "Proyectos de co-creación", "text": "Intercambio de conocimientos y habilidades." },
+    { "title": "Encuentros literarios", "text": "Descubrir libros y autores." },
+    { "title": "Proyectos expositivos", "text": "Artistas reunidos en torno a temas culturales." },
+    { "title": "Conciertos & espectáculos", "text": "Música y artes escénicas." },
+    { "title": "Cine", "text": "BRENFF, más que un festival." }
+  ],
+  "footer": {
+    "copyright": "© {{year}} Lingua e Arti d’Italia. Todos los derechos reservados.",
+    "tagline": "Un espacio cultural abierto al mundo, en el corazón de Bruselas."
+  },
+  "mission": {
+    "title": "Nuestra Visión y Misión",
+    "p1": "Nuestra visión es convertirnos en un puente cultural esencial en Europa, conectando las ricas tradiciones italianas con las dinámicas culturales globales. Imaginamos un espacio donde el arte, la lengua y la identidad sean herramientas para la inclusión social y la comprensión mutua.",
+    "objectives_title": "Objetivos Clave",
+    "objective1_title": "Promoción lingüística:",
+    "objective1_text": "Promover la lengua y la cultura italianas a través de cursos y eventos interactivos.",
+    "objective2_title": "Diálogo intercultural:",
+    "objective2_text": "Facilitar el diálogo intercultural para construir sociedades inclusivas.",
+    "objective3_title": "Acceso democrático:",
+    "objective3_text": "Democratizar el acceso a la cultura sin barreras económicas, lingüísticas o sociales."
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "text": "Estamos en Bruselas. Contáctanos para preguntas o propuestas de colaboración.",
+    "email": "Correo General",
+    "address": "Dirección (Provisional)",
+    "phone_donatella": "Donatella Cannova",
+    "phone_elina": "Elina Patané"
+  }
+  ,
+  "page": {
+    "not_found": "PÁGINA NO ENCONTRADA",
+    "back_home": "Volver al inicio"
+  }
+}

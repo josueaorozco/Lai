@@ -1,6 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+// 1. IMPORTACIÓN CORREGIDA: Ahora importamos el archivo base 'index.css'.
 import './index.css';
+import './Styles/Globals.css';
+// i18n (internationalization) initialization
+import './i18n';
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

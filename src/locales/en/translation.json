@@ -1,0 +1,69 @@
+{
+  "nav": {
+    "home": "Home",
+    "mission": "Mission",
+    "activities": "Activities",
+    "contact": "Contact"
+  },
+  "brand": "Language and Arts of Italy",
+  "hero": {
+    "title": "Language and Arts of Italy",
+    "subtitle": "Where cultures meet and create."
+  },
+  "about": {
+    "title": "About",
+    "text": "A cultural space open to the world, at the heart of Brussels. A living space of encounter and dialogue around languages, arts and cultural identities."
+  },
+  "quote": "Italy, its language and artistic heritage, an active bridge with other worlds, experiences and imaginaries.",
+  "values": "Our Values",
+  "values_list": [
+    "Cultural diversity",
+    "Participation",
+    "Inclusivity",
+    "Creativity",
+    "Collaboration",
+    "International alliances"
+  ],
+  "mission_preview": {
+    "title": "Our Mission",
+    "text": "Promote the Italian language and culture in all their richness and contemporaneity. Facilitate intercultural dialogue to build inclusive societies.",
+    "read_more": "Read more"
+  },
+  "activities_title": "Our Activities",
+  "activities": [
+    { "title": "Language Courses", "text": "All levels, certified native teachers." },
+    { "title": "Co-creation Projects", "text": "Knowledge and skills exchange." },
+    { "title": "Literary Meetings", "text": "Discover books and authors." },
+    { "title": "Exhibition Projects", "text": "Artists gathered around cultural themes." },
+    { "title": "Concerts & Shows", "text": "Music and performing arts." },
+    { "title": "Cinema", "text": "BRENFF, more than a festival." }
+  ],
+  "footer": {
+    "copyright": "© {{year}} Language and Arts of Italy. All rights reserved.",
+    "tagline": "A cultural space open to the world, in the heart of Brussels."
+  },
+  "mission": {
+    "title": "Our Vision and Mission",
+    "p1": "Our vision is to become an essential cultural bridge in Europe, connecting Italy's rich traditions with global cultural dynamics. We imagine a space where art, language and identity are tools for social inclusion and mutual understanding.",
+    "objectives_title": "Key Objectives",
+    "objective1_title": "Language promotion:",
+    "objective1_text": "Promote the Italian language and culture through courses and interactive events.",
+    "objective2_title": "Intercultural dialogue:",
+    "objective2_text": "Facilitate intercultural dialogue to build inclusive and open societies.",
+    "objective3_title": "Democratic access:",
+    "objective3_text": "Democratize access to culture without economic, linguistic or social barriers."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "text": "We are based in Brussels. Feel free to contact us for questions or collaboration proposals.",
+    "email": "General Email",
+    "address": "Address (Provisional)",
+    "phone_donatella": "Donatella Cannova",
+    "phone_elina": "Elina Patané"
+  }
+  ,
+  "page": {
+    "not_found": "PAGE NOT FOUND",
+    "back_home": "Back to home"
+  }
+}
