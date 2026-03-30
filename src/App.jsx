@@ -6,6 +6,17 @@ import { Menu, X, ArrowRight, MapPin, Mail, Phone } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 
+const RANDOM_BGS = [
+  "url('/bg-davinci.png')",
+  "url('/bg-manos.png')",
+  "url('/bg-pillar.png')",
+  "url('/bg-venus.png')"
+];
+
+const useRandomBg = () => {
+  return React.useMemo(() => RANDOM_BGS[Math.floor(Math.random() * RANDOM_BGS.length)], []);
+};
+
 // --- COMPONENTS ---
 
 // Componente de Navegación (Header)
@@ -280,13 +291,14 @@ function Home() {
 // Mission Page
 function Mission() {
   const { t } = useTranslation();
+  const bgImage = useRandomBg();
 
   return (
     <motion.section 
       initial="hidden" animate="visible" variants={fadeIn}
       className="px-8 md:px-24 py-24 max-w-4xl mx-auto min-h-[60vh] relative flex-grow"
     >
-      <div className="absolute top-0 right-0 z-0 pointer-events-none opacity-40 mix-blend-multiply w-[600px] h-[600px] bg-no-repeat bg-right-top bg-contain" style={{ backgroundImage: "url('/bg-pillar.png')" }}></div>
+      <div className="absolute top-0 right-0 z-0 pointer-events-none opacity-40 mix-blend-multiply w-[600px] h-[600px] bg-no-repeat bg-right-top bg-contain" style={{ backgroundImage: bgImage }}></div>
       
       <h1 className="text-6xl font-serif font-medium tracking-wide text-[#4A4A4A] mb-16 border-b border-[#E5E5E5] pb-8 relative z-10">{t('mission.title')}</h1>
       
@@ -322,13 +334,14 @@ function Activities() {
   const { t } = useTranslation();
   const activityListRaw = t('activities', { returnObjects: true });
   const activityList = Array.isArray(activityListRaw) ? activityListRaw : Object.values(activityListRaw || {});
+  const bgImage = useRandomBg();
 
   return (
     <motion.section 
       initial="hidden" animate="visible" variants={fadeIn}
       className="px-8 md:px-24 py-24 max-w-5xl mx-auto min-h-[60vh] relative flex-grow"
     >
-      <div className="absolute inset-0 z-0 pointer-events-none opacity-40 mix-blend-multiply w-full h-[80vh] bg-no-repeat bg-center bg-cover fixed" style={{ backgroundImage: "url('/bg-manos.png')" }}></div>
+      <div className="absolute inset-0 z-0 pointer-events-none opacity-40 mix-blend-multiply w-full h-[80vh] bg-no-repeat bg-center bg-cover fixed" style={{ backgroundImage: bgImage }}></div>
       
       <h1 className="text-6xl font-serif font-medium tracking-wide text-[#4A4A4A] mb-16 border-b border-[#E5E5E5] pb-8 relative z-10">{t('activities_title')}</h1>
       
@@ -352,20 +365,24 @@ function Activities() {
 // Contact Page
 function Contact() {
   const { t } = useTranslation();
+  const bgImage = useRandomBg();
 
   return (
     <motion.section 
       initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { duration: 1 } }}
-      className="px-8 md:px-24 py-24 max-w-5xl mx-auto text-center min-h-[60vh] flex-grow flex flex-col justify-center"
+      className="px-8 md:px-24 py-24 max-w-5xl mx-auto text-center min-h-[60vh] flex-grow flex flex-col justify-center relative overflow-hidden"
     >
-      <h1 className="text-5xl md:text-6xl font-serif font-medium tracking-wide text-[#4A4A4A] mb-8">{t('contact.title')}</h1>
-      <p className="text-[#6E6E6E] mb-16 text-xl max-w-2xl mx-auto font-light">{t('contact.text')}</p>
-      
-      <div className="grid md:grid-cols-2 gap-10 max-w-4xl mx-auto">
-        <ContactCard icon={Mail} title={t('contact.email')} content="linguaeartiditalia@gmail.com" type="link" link="mailto:linguaeartiditalia@gmail.com" />
-        <ContactCard icon={MapPin} title={t('contact.address')} content="Bruxelles, Belgique" type="text" />
-        <ContactCard icon={Phone} title={t('contact.phone_donatella')} content="+32 472 591764" type="phone" link="tel:+32472591764" />
-        <ContactCard icon={Phone} title={t('contact.phone_elina')} content="+32 470 126045" type="phone" link="tel:+32470126045" />
+      <div className="absolute inset-0 z-0 pointer-events-none opacity-40 mix-blend-multiply w-full h-[80vh] bg-no-repeat bg-center bg-cover fixed" style={{ backgroundImage: bgImage }}></div>
+      <div className="relative z-10 w-full">
+        <h1 className="text-5xl md:text-6xl font-serif font-medium tracking-wide text-[#4A4A4A] mb-8">{t('contact.title')}</h1>
+        <p className="text-[#6E6E6E] mb-16 text-xl max-w-2xl mx-auto font-light">{t('contact.text')}</p>
+        
+        <div className="grid md:grid-cols-2 gap-10 max-w-4xl mx-auto">
+          <ContactCard icon={Mail} title={t('contact.email')} content="linguaeartiditalia@gmail.com" type="link" link="mailto:linguaeartiditalia@gmail.com" />
+          <ContactCard icon={MapPin} title={t('contact.address')} content="Bruxelles, Belgique" type="text" />
+          <ContactCard icon={Phone} title={t('contact.phone_donatella')} content="+32 472 591764" type="phone" link="tel:+32472591764" />
+          <ContactCard icon={Phone} title={t('contact.phone_elina')} content="+32 470 126045" type="phone" link="tel:+32470126045" />
+        </div>
       </div>
     </motion.section>
   );
