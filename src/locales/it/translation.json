@@ -1,6 +1,6 @@
 {
   "nav": {
-    "home": "Accueil",
+    "home": "Inizio",
     "mission": "Mission",
     "activities": "Attività",
     "contact": "Contatto"
@@ -8,7 +8,7 @@
   "brand": "Lingua e arti d’Italia",
   "hero": {
     "title": "Lingua e Arti d’Italia",
-    "subtitle": "Where cultures meet and create."
+    "subtitle": "Dove le culture si incontrano e creano."
   },
   "about": {
     "title": "Informazioni",
